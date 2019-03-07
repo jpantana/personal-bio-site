@@ -1,3 +1,27 @@
+* {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     background-color: lightgrey;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#navLinks {
+    list-style-type: none;
+    margin: 0;
+    width: 200px;
+    text-decoration: none;
+    display: inline-flex;
+    width: 100%;
+    background-color: rgba(146, 141, 141, .5);
+    position: absolute;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
