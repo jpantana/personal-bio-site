@@ -1,4 +1,8 @@
-
+// printToDom function 
+const printToDom = (divId, textToPrint) => {
+    const selectedDiv = document.getElementById(divId);
+    selectedDiv.innerHTML = textToPrint;
+};
 
 const projects = [
     {
@@ -53,11 +57,7 @@ const projects = [
 ];
 
 
-// printToDom function 
-const printToDom = (divId, textToPrint) => {
-    const selectedDiv = document.getElementById(divId);
-    selectedDiv.innerHTML = textToPrint;
-};
+
 
 
 // createProjectCards function
@@ -72,10 +72,10 @@ const createProjectCards = () => {
         domString +=   `<p>Technolgies Used: ${projects[i].technologiesUsed}</p>`;
         domString +=   `<p>Available: ${projects[i].available}</p>`;
         domString +=   `<p><a href="${projects[i].url}">Link</a></p>`;
-        domString +=   `<p>${projects[i].githubUrl}</p>`;
+        domString +=   `<p><a href="${projects[i].githubUrl}">GitHub Link</a></p>`;
         domString += `</div>`;
       } else {
-          console.log('damn');
+          console.log('false');
       }
     printToDom('projectsPage', domString);
     }
@@ -85,5 +85,5 @@ const createProjectCards = () => {
 const init = () => {
     createProjectCards();
 };
-
 init();
+
