@@ -4,10 +4,29 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
+
+
+// const imgJS = () => {
+//     const new Image();
+//     for (let i = 0; i < projects.screenshot.length; i++) {
+//     document.getElementsByClassName('projectsPage')
+//     }
+// };
+
+
+
+// const imgJS = new Image();
+// imgJS.src = 'image.png';
+// imgJS.onclick = function() {
+//     window.location.href = 'https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0';
+// };
+// document.getElementById('projectsPage').projects.screenshot(imgJS);
+// projects.screenshot.innerHTML = "   https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0"
+
 const projects = [
     {
         title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -16,7 +35,7 @@ const projects = [
     },
     { 
         title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -26,7 +45,7 @@ const projects = [
     },
     {
         title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -36,7 +55,7 @@ const projects = [
     },
     {
         title: "Uncool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: false,
@@ -46,7 +65,7 @@ const projects = [
     },
     {
         title: "Cool Project", 
-        screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
+        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -67,12 +86,12 @@ const createProjectCards = () => {
         if (projects[i].available === true) {
         domString += `<div class="card">`;
         domString +=   `<h2>Title: ${projects[i].title}</h2>`;
-        domString +=   `<img src="${projects[i].screenshot}">`;
+        domString +=   `<img class="projectImages" src="${projects[i].screenshot}">`;
         domString +=   `<p>Description: ${projects[i].description}</p>`;
         domString +=   `<p>Technolgies Used: ${projects[i].technologiesUsed}</p>`;
         domString +=   `<p>Available: ${projects[i].available}</p>`;
-        domString +=   `<p><a href="${projects[i].url}">Link</a></p>`;
-        domString +=   `<p><a href="${projects[i].githubUrl}">GitHub Link</a></p>`;
+        domString +=   `<p><a class="jsLinks" href="${projects[i].url}">Link</a></p>`;
+        domString +=   `<p><a class="jsLinks" href="${projects[i].githubUrl}">GitHub Link</a></p>`;
         domString += `</div>`;
       } else {
           console.log('false');
