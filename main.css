@@ -17,7 +17,6 @@ font-family: 'Fjalla One', sans-serif;
 
 body {
     margin: 0;
-    /* background-image: url(./imgs/trianglify.svg); */
 }
 
 .colorful {
@@ -60,6 +59,7 @@ body {
         /* opacity: .6; */
         transition: 1.2s;
     }
+
 
     .navBar {
         margin-top: auto;
@@ -147,7 +147,6 @@ body {
 
     
     /* Social Icons Vertical left  */
-
     .socialIconsDiv {
         padding: 10px;
         position: fixed;
@@ -178,7 +177,6 @@ body {
 
 
 /* main body section */
-
     .topPage {
 
     }
@@ -191,8 +189,6 @@ body {
     #technologiesPage {
       
     }
-
-
 
     #name {
         text-align: center;
@@ -207,21 +203,14 @@ body {
         
     }
 
-    /* h1:not(#techProf, #projectsH1)  */
-    
     #aboutH1 {
         font-family: 'Fjalla One', sans-serif;
-        /* background-color: #eee; */
         background-color: #eee;
-        /* background-color: rgb(177, 175, 175); */
         color:  rgb(112, 110, 110);
-        /* color:  transparent; */
         padding: 5px;
         justify-content: center;
         float: center;
         font-size: 3em;
-        /* -webkit-text-stroke-width: .4px;
-        -webkit-text-stroke-color:  black; */
     }
 
     h1:hover {
@@ -231,25 +220,37 @@ body {
         color: rgb(112, 110, 110);
         background-color: #eee;
         cursor: pointer;
-        /* -webkit-text-stroke-width: .4px;
-        -webkit-text-stroke-color:  transparent; */
     }
 
     #techProf {
-        font-family: 'Fjalla One', sans-serif;
+        /* font-family: 'Fjalla One', sans-serif; */
         /* background-color: #eee; */
-        background-color: #eee;
-        border-radius: 3px;
+        /* background-color: #eee; */
+        /* border-radius: 3px; */
         /* background-color: rgb(177, 175, 175); */
-        color:  rgb(112, 110, 110);
+        /* color:  rgb(112, 110, 110); */
         /* color:  transparent; */
-        padding: 5px;
+        /* padding: 5px;
         margin: auto;
         margin-top: 90px;
-        /* font-size: 3em; */
-        /* -webkit-text-stroke-width: .4px;
-        -webkit-text-stroke-color:  black; */ 
-    }
+        font-size: 3em; */
+        /* webkit-text-stroke-width: .4px; */
+        /* -webkit-text-stroke-color:  black;  */ 
+
+
+        font-family: 'Fjalla One', sans-serif;
+        background-color:transparent;
+        border-radius: 3px;
+        color:  rgb(245, 245, 245);
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 90px;
+        border: 1px solid  rgb(232, 231, 231);
+        font-size: 3em;
+        } 
+
 
     #techSpan {
        
@@ -346,7 +347,8 @@ body {
     }
 
     #projectsDiv {
-        
+        display: flex;
+        flex-flow: nowrap row;
         /* border-right: 4px solid #eee; 
         border-left: 4px solid #eee;  */
     } 
@@ -358,10 +360,13 @@ body {
         color:  rgb(232, 231, 231);
         padding: 5px;
         text-align: center;
-        margin-top: 90px;
         margin-bottom: 0;
-        /* display: inline;
+        margin: auto;
+        margin-top: 90px;
         border: 1px solid  rgb(232, 231, 231);
+        font-size: 3em;
+        /* display: inline; */
+        /* display: inline;
         border-radius: 7px; */
     } 
 
@@ -408,9 +413,7 @@ body {
 
     .titleH2 {
         /* font-family: 'Merriweather', serif;
-        
-        font-family: 'Rubik', sans-serif;
-        */
+        font-family: 'Rubik', sans-serif; */
         text-transform: uppercase;
         font-family: 'Fjalla One', sans-serif;
         /* background-color: rgb(50, 115, 175); */
@@ -418,13 +421,11 @@ body {
         border-radius: 3px;
         color:  rgb(232, 231, 231);
         padding: 5px;
-        
         border: 1px solid  rgb(232, 231, 231);
         border-radius: 7px;
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
-
     }
 
     .projectImages {
@@ -454,7 +455,6 @@ body {
 
 
 /* footer section */
-
     footer {
         margin: auto;
         flex: 1;
@@ -465,7 +465,6 @@ body {
     
 
 /* clearfix */
-
 .clearfix::after {
     content: "";
     display: table;
