@@ -26,7 +26,7 @@ const printToDom = (divId, textToPrint) => {
 const projects = [
     {
         title: "Cool Project", 
-        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
+        screenshot: "imgs/art-ball-shaped-circle-414860.jpg", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -35,7 +35,7 @@ const projects = [
     },
     { 
         title: "Cool Project", 
-        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
+        screenshot: "./imgs/art-ball-shaped-circle-414860.jpg",
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -45,7 +45,7 @@ const projects = [
     },
     {
         title: "Cool Project", 
-        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
+        screenshot: "./imgs/art-ball-shaped-circle-414860.jpg",
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: "Uncool Project", 
-        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
+        screenshot: "./imgs/art-ball-shaped-circle-414860.jpg",
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: false,
@@ -65,7 +65,7 @@ const projects = [
     },
     {
         title: "Cool Project", 
-        screenshot: "https://www.dropbox.com/s/a2g9ax3y74054ca/JP%20PRESS%20LOWREZ%20b%26w%201.jpg?dl=0", 
+        screenshot: "./imgs/art-ball-shaped-circle-414860.jpg", 
         description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
         technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
         available: true,
@@ -85,11 +85,11 @@ const createProjectCards = () => {
     for (let i = 0; i < projects.length; i++) {
         if (projects[i].available === true) {
         domString += `<div class="card">`;
-        domString +=   `<h2>Title: ${projects[i].title}</h2>`;
+        domString +=   `<h2 class="titleH2">${projects[i].title}</h2>`;
         domString +=   `<img class="projectImages" src="${projects[i].screenshot}">`;
-        domString +=   `<p>Description: ${projects[i].description}</p>`;
-        domString +=   `<p>Technolgies Used: ${projects[i].technologiesUsed}</p>`;
-        domString +=   `<p>Available: ${projects[i].available}</p>`;
+        domString +=   `<p class="jsDescrip"><strong>Description:</strong> ${projects[i].description}</p>`;
+        domString +=   `<p class="jsTech"><strong>Technolgies Used:</strong></br> ${projects[i].technologiesUsed}</p>`;
+        domString +=   `<p class="jsAvail"><strong>Available:</strong> ${projects[i].available}</p>`;
         domString +=   `<p><a class="jsLinks" href="${projects[i].url}">Link</a></p>`;
         domString +=   `<p><a class="jsLinks" href="${projects[i].githubUrl}">GitHub Link</a></p>`;
         domString += `</div>`;
