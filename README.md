@@ -22,9 +22,6 @@ $ git clone https://github.com/jpantana/personal-bio-site
     
 ### Installing:
 
-  * navigate URL to:
-`localhost:5000`
-
 * Set up the _http-server_ on your machine
 ```
 $ npm install -g http-server
@@ -37,6 +34,7 @@ $ npm install -g http-server
 
 ### Screenshots:
 
-![Image of the website from midway through the page.](https://raw.githubusercontent.com/jpantana/personal-bio-site/master/screenshots/midOfSite.png "Personal Bio Site (scrolled midway through the page)")
+![Image of the website bottom of page.](https://raw.githubusercontent.com/jpantana/personal-bio-site/master/screenshots/bottomOfSite.png "Personal Bio Site (scrolled midway through the page)")
 
-![Image of the website bottom of page.](https://raw.githubusercontent.com/jpantana/personal-bio-site/master/screenshots/bottomOfSite.png "Personal Bio Site (scrolled to the bottom of the page")
+![Image of the website from midway through the page.](https://raw.githubusercontent.com/jpantana/personal-bio-site/master/screenshots/midOfSite.png "Personal Bio Site (scrolled to the bottom of the page")
+
