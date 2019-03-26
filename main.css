@@ -175,31 +175,29 @@ body {
 
 
 
+/* container DIV */
+
+    .container {
+        margin: auto;
+        margin-top: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+
 
 /* main body section */
-    .topPage {
-
-    }
-
-    .midPage {
-        height: 100px;
-        display: flex;
-    }
-
-    #technologiesPage {
-      
-    }
-
-    #name {
+    #bioPage {
         text-align: center;
         border: 1.5px solid #eee;
         width: 22em;
         border-radius: 5px;
         margin: auto;
-        margin-top: 10em;
+        margin-top: 3em;
     }
 
-    #name:hover {
+    #bioPage:hover {
         
     }
 
@@ -213,6 +211,13 @@ body {
         font-size: 3em;
     }
 
+    #bio {
+        padding: 20px;
+        width: 18em;
+        margin: auto;
+        text-align: center;
+    }
+
     h1:hover {
         transform: scale(1.08);
         transition: 1.8s;
@@ -222,39 +227,7 @@ body {
         cursor: pointer;
     }
 
-    #techProf {
-        /* font-family: 'Fjalla One', sans-serif; */
-        /* background-color: #eee; */
-        /* background-color: #eee; */
-        /* border-radius: 3px; */
-        /* background-color: rgb(177, 175, 175); */
-        /* color:  rgb(112, 110, 110); */
-        /* color:  transparent; */
-        /* padding: 5px;
-        margin: auto;
-        margin-top: 90px;
-        font-size: 3em; */
-        /* webkit-text-stroke-width: .4px; */
-        /* -webkit-text-stroke-color:  black;  */ 
-
-
-        font-family: 'Fjalla One', sans-serif;
-        background-color:transparent;
-        border-radius: 3px;
-        color:  rgb(245, 245, 245);
-        padding: 5px;
-        text-align: center;
-        margin-bottom: 0;
-        margin: auto;
-        margin-top: 90px;
-        border: 1px solid  rgb(232, 231, 231);
-        font-size: 3em;
-        } 
-
-
-    #techSpan {
-       
-    }
+    
 
     #josh2 {
         font-family: 'Fjalla One', sans-serif;
@@ -275,17 +248,35 @@ body {
         font-size: 1em;
     }
 
-    #bio {
-        padding: 20px;
-        width: 18em;
-        margin: auto;
-        text-align: center;
-    }
+
 
 
     /* Tech page FLEX */
+    #technologiesPage {
+      
+    }
+
+    #techProf {
+        font-family: 'Fjalla One', sans-serif;
+        background-color:transparent;
+        border-radius: 3px;
+        color:  rgb(245, 245, 245);
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 0;
+        margin: auto;
+        /* margin-top: 90px; */
+        border: 1px solid  rgb(232, 231, 231);
+        font-size: 3em;
+    } 
+
+
+    #techSpan {
+       
+    }
+
+
     .tech-container {
-        /* background-color: rgb(128, 167,250); */
         padding: 55px;
         height: 20em;
         border-bottom: 4px solid background-color: rgb(51, 51, 51);
@@ -293,23 +284,10 @@ body {
 
     #triangleBackground {
         background-image: url(./imgs/trianglify.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
     }
-
-    .container {
-        margin: auto;
-        margin-top: 70px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-
-    /* hr {
-        width:65%;
-        margin: auto;
-        margin-top: 20px;
-        opacity: .4;
-       
-    } */
 
     .techImg {
         width: 3.5em;
@@ -454,9 +432,13 @@ body {
 
 
 
-/* footer section */
+/* footer section SOME DAY FIX THE POSITIONING OF THIS*/
     footer {
+        text-align: center;
         margin: auto;
+        float: bottom;
+        /* position: absolute; */
+        margin-top: 1000px;
         flex: 1;
         padding: 10px;
         background-color:  rgb(56, 104, 207);
