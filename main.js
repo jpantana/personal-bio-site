@@ -77,13 +77,6 @@ const createProjectCards = () => {
     }
 };
 
-// const hideProjects = () => {
-//     let domString = '';
-//     console.log(domString);
-//     printToDom('mainDiv', domString);
-// };
-
-
 const bioDivBuilder = (e) => {
     console.log(e);
     e.preventDefault();
@@ -110,40 +103,40 @@ const techDivBuilder = (e) => {
         domString += `                <ul class="tech-container container"> `
         domString += `                    <li>`
         domString += `                        <div class="techImgDiv">`
-        domString += `                            <img data-wow-delay=".1s" class="techImg wow bounceIn logo-width" 
-                                                    src="imgs/html5.png" style="visibility: visible; animation-delay: 0.1s; 
+        domString += `                            <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" 
+                                                    src="imgs/html5.png" style="visibility: visible; animation-delay: 0.5s; 
                                                     animation-name: pulse;">`
         domString += `                        <h3 class="techH3">HTML5</h3>`
         domString += `                        </div>`
         domString += `                    </li>`
         domString += `                    <li></li>`
         domString += `                        <div class="techImgDiv">`
-        domString += `                            <img data-wow-delay=".1s" class="techImg wow bounceIn logo-width" 
-                                                    src="imgs/css3.png" style="visibility: visible; animation-delay: 0.1s; 
+        domString += `                            <img data-wow-delay=".15" class="techImg wow bounceIn logo-width" 
+                                                    src="imgs/css3.png" style="visibility: visible; animation-delay: .5s; 
                                                     animation-name: pulse;">`
         domString += `                        <h3 class="techH3">CSS3</h3>`
         domString += `                        </div>`
         domString += `                    </li>`
         domString += `                    <li>`
         domString += `                        <div class="techImgDiv">`
-        domString += `                            <img data-wow-delay=".1s" class="techImg wow bounceIn logo-width" 
-                                                    src="imgs/JS6_Logo.png" style="visibility: visible; animation-delay: 0.1s; 
+        domString += `                            <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" 
+                                                    src="imgs/JS6_Logo.png" style="visibility: visible; animation-delay: 0.5s; 
                                                     animation-name: pulse;">`
         domString += `                        <h3 class="techH3">JavaScript</h3>`
         domString += `                        </div>`
         domString += `                    </li>`
         domString += `                    <li>`
         domString += `                        <div class="techImgDiv">`
-        domString += `                            <img data-wow-delay=".1s" class="techImg wow bounceIn logo-width" 
-                                                    src="imgs/bootstrap.png" style="visibility: visible; animation-delay: 0.1s; 
+        domString += `                            <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" 
+                                                    src="imgs/bootstrap.png" style="visibility: visible; animation-delay: 0.5s; 
                                                     animation-name: pulse;">`
         domString += `                        <h3 class="techH3">Bootstrap</h3>`
         domString += `                        </div>`
         domString += `                    </li>`
         domString += `                    <li>`
         domString += `                        <div class="techImgDiv">`
-        domString += `                            <img data-wow-delay=".1s" class="techImg wow bounceIn logo-width" 
-                                                    src="imgs/xcode-logo.png" style="visibility: visible; animation-delay: 0.1s; 
+        domString += `                            <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" 
+                                                    src="imgs/xcode-logo.png" style="visibility: visible; animation-delay: 0.5s; 
                                                     animation-name: pulse;">`
         domString += `                        <h3 class="techH3">xcode</h3>`
         domString += `                        </div>`
@@ -173,7 +166,7 @@ const techDivBuilder = (e) => {
 const buttonEvents = () => {
     document.getElementById('bioLink').addEventListener('click', bioDivBuilder);
     document.getElementById('techLink').addEventListener('click', techDivBuilder);
-    document.getElementById('projectLink').addEventListener('click', projectsDomBuilder);
+    // document.getElementById('projectLink').addEventListener('click', projectsDomBuilder);
 
 };
 
