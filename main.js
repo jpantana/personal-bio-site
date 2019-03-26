@@ -73,14 +73,15 @@ const createProjectCards = () => {
       } else {
           console.log('false');
       }
-    printToDom('projectsPage', domString);
+    printToDom('mainDiv', domString);
     }
 };
 
-const hideProjects = () => {
-    let domString = '';
-    printToDom('mainDiv', domString);
-};
+// const hideProjects = () => {
+//     let domString = '';
+//     console.log(domString);
+//     printToDom('mainDiv', domString);
+// };
 
 
 const bioDivBuilder = (e) => {
@@ -95,6 +96,7 @@ const bioDivBuilder = (e) => {
         domString += `    </div>`;
         domString += `  </div>`;
         printToDom('mainDiv', domString);
+        console.log(domString);
         buttonEvents();
 };
 
@@ -149,6 +151,7 @@ const techDivBuilder = (e) => {
         domString += `                </ul>`
         domString += `            </div>`
         domString += `         </div>`
+        console.log(domString);
         printToDom('mainDiv', domString);
         buttonEvents();
 };
@@ -170,7 +173,7 @@ const techDivBuilder = (e) => {
 const buttonEvents = () => {
     document.getElementById('bioLink').addEventListener('click', bioDivBuilder);
     document.getElementById('techLink').addEventListener('click', techDivBuilder);
-    // document.getElementById('projectLink').addEventListener('click', projectsDomBuilder);
+    document.getElementById('projectLink').addEventListener('click', projectsDomBuilder);
 
 };
 
