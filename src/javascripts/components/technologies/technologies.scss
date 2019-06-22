@@ -1,0 +1,68 @@
+@import '../../../styles/colorsAndFonts.scss';
+
+/* Tech page FLEX */
+    #technologiesPage {
+      
+    }
+
+    #techProf {
+        font-family: $font7;
+        background-color:transparent;
+        border-radius: 3px;
+        color:  $softWhiteFont;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 0;
+        margin: auto;
+        margin-top: 90px;
+        border: 1px solid  $softWhiteFont;
+        font-size: 3em;
+        max-width: 6em;
+    } 
+
+
+    #techSpan {
+       
+    }
+
+
+    .tech-container {
+        padding: 55px;
+        height: 20em;
+        border-bottom: 4px solid black;
+        background-color: $bannerDarkColor;
+    }
+
+    #triangleBackground {
+        // background-image: url(../../imgs/trianglify.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .techImg {
+        width: 3.5em;
+        align-content: center;
+        display: block;
+        margin: auto;
+    }
+
+    .techH3 {
+        text-align: center;
+        color: $hoverBtnBg2;
+        padding: 30px;
+    }
+
+    .techImg:hover {
+        transform: scale(1.3);
+        transition: .5s;
+    }
+
+    .techImgDiv {
+        width: 20em;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+
+
+    
