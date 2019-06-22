@@ -13,14 +13,13 @@ const createProjectCards = () => {
         if (projects[i].available === true) {
           domString += `
             <div class="myCard">
-            <h2 class="titleH2">${projects[i].title}</h2>
-            <img class="projectImages" src="${projects[i].screenshot}"/>
-            <p class="jsDescrip"><strong>Description:</strong> ${projects[i].description}</p>
-            <p class="jsTech"><strong>Technolgies Used:</strong></br> ${projects[i].technologiesUsed}</p>
-            <div class="projectLinksDiv">
-              <a class="jsLinks" href="${projects[i].url}">${projects[i].title}</a><br>
-              <a class="jsLinks" href="${projects[i].githubUrl}">GitHub</a>
-            </div>
+              <h2 class="titleH2">${projects[i].title}</h2>
+              <p class="jsDescrip"><strong>Description:</strong> ${projects[i].description}</p>
+              <p class="jsTech"><strong>Technolgies Used:</strong></br> ${projects[i].technologiesUsed}</p>
+              <div class="projectLinksDiv">
+                <a class="jsLinks" href="${projects[i].url}">${projects[i].title}</a><br>
+                <a class="jsLinks" href="${projects[i].githubUrl}">GitHub</a>
+              </div>
           </div>`;
         }
       }

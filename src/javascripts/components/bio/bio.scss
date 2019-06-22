@@ -5,7 +5,7 @@
 #bioPage {
   text-align: center;
   border: 1.5px solid $hoverBtnBg2;
-  width: 22em;
+  width: 36em;
   border-radius: 5px;
   margin: auto;
   // margin-top: 3em;
@@ -21,39 +21,29 @@
   color:  $brandHoverFontC;
   padding: 5px;
   justify-content: center;
-  // float: center;
   font-size: 3em;
-  // &:hover {
-  //   transform: scale(1.08);
-  //   transition: 1.8s;
-  //   border-radius: 7px;
-  //   color: $brandHoverFontC;
-  //   background-color: $hoverBtnBg2;
-  //   cursor: pointer;
-  // }
 }
 
 #bio {
   padding: 20px;
-  width: 18em;
+  width: 36em;
   margin: auto;
   text-align: center;
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// need to change bc of brand header in nav
 
 #josh2 {
   font-family: $font7;
   background-color: $hoverBtnBg2;
-  color:$fontColorBlue;
+  color: $richBlue;
   padding: 5px;
   justify-content: center;
   float: center;
   -webkit-text-stroke-color:  transparent;
 }
 
-h3 {       
+.h3 {       
   color: $brandHoverFontC;
   padding-top: 0;
   font-family: $font2;

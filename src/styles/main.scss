@@ -2,6 +2,8 @@
 @import './colorsAndFonts.scss';
 @import './animaton.css';
 
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 * {
     margin: 0;
     padding: 0px;
@@ -60,7 +62,7 @@ html, body {
         padding: 0;
     }
 
-    li {
+    .navLi {
         line-height: 3em;
         padding: 14px;
         display: inline;
@@ -85,7 +87,7 @@ html, body {
     }
 
     #josh1 {
-        color: $softBlue;
+        color: $richBlue;
         font-family: $font2;
     }
 
@@ -115,25 +117,22 @@ html, body {
         height: auto;
     }
 
-    .socialsList {
-        flex-flow: column ;
-        height: 100%;
-    }
-
     .socialLi {
-        margin-right: auto;
+        line-height: 3em;
+        padding: 14px;
+        display: inline;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $whiteFontAndBorder;
+        font-family: $font2;
     }
-
-    .socialA:hover {
-            background-color: transparent;
-            transform: scale(1.3);
-            transition: .5s;
-        }
 
     .social-button {
         color: $bannerDarkColor;
         &:hover {
-            color: $bannerDarkColor;
+            background-color: transparent!important;
+            transform: scale(1.3);
+            transition: .5s;
         }
     }
 

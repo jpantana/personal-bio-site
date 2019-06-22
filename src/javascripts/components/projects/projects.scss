@@ -25,7 +25,7 @@
   border-radius: 9px;
   line-height: 2.0;
   margin: 20px;
-  margin-bottom: 100px; 
+  // margin-bottom: 100px; 
 }
 
 .titleH2 {
@@ -51,13 +51,22 @@
   font-family: $font1;
 }
 
+.jsDescrip {
+  height: 13em;
+  overflow: scroll;
+}
+
+.jsTech {
+  font-size: 10px;
+}
+
 .projectLinksDiv {
   // background-color: $brandHoverFontC;
   width: 100%;
 }
 
 .jsLinks {
-  color: $softBlue;
+  color: $richBlue;
   width: 100%;
   font-family: $font1;
 }

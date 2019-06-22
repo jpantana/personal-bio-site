@@ -1,33 +1,32 @@
 # Personal Bio Site
 
 ## Description
-This is the professional site of software developer (in training), Josh Pantana. I was 3 weeks into the full-stack developer evening program at Nashville Software School. 
+This is the personal site of software developer (in training), Josh Pantana. This site gives detail about me and why I'm pursuing web dev, tech proficiencies, and links to deployed projects.
 
 ![Image of the website from the nav bar down.](https://raw.githubusercontent.com/jpantana/personal-bio-site/master/screenshots/topOfSite.png "Personal Bio Site")
 
 ## Features
-* _Sticky/Flex_ topNav Bar
-* _Sticky/Flex_ left-side social media links
+* _Flex Display_
 * _About_ section
-* _Proficiencies_ section
-* And a _Projects_ (uses JavaScript to populate the cards)
+* _Proficiencies/Interests_ section
+* And a _Projects_ section(_Axios get_ retrieves data from firebase)
   
 ## Getting Started
+* Clone down this repo
 ```
 $ git clone https://github.com/jpantana/personal-bio-site
 ```
+* At project root, run ```npm install```
 ### Prerequisites:
 
 - Install the latest version of [Visual Studio](https://code.visualstudio.com/download)
-    
-### Installing:
 
-* Set up the _http-server_ on your machine
-```
-$ npm install -g http-server
-```
-  * Navigate URL to:
-    * `localhost: 5000`
+* Create a google firebase account
+  * see file, ```authKeys.example.json``` for reference
+    * build out this object with your corresponding info inside (.gitignor(ed)) file, ```apiKeys.json```
+
+## How to Run
+* In your terminal, type `npm start`
     
 ## Running this site
 - Simply navigate by scrolling form top to bottom, or by clicking any of the nav bar items to jump to that section of the site. 

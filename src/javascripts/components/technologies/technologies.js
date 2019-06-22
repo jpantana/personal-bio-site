@@ -11,7 +11,7 @@ const techDivBuilder = (e) => {
   <div class="fullPage" id="technologiesPage">
     <h1 class="" id="techProf">Technologies</h1>
   </div>
-    <ul class="tech-container container">
+    <ul class="tech-container">
       <li>
         <div class="techImgDiv">
             <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="imgs/html5.png" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
