@@ -1,14 +1,14 @@
 // colors
-$bannerDarkColor: rgb(51, 51, 51);
-$linearGrad1: linear-gradient(rgb(51, 51, 51), #eee);
-$softBlue: rgb(128, 167, 250);
-$hoverBtnBg1: rgb(255, 253, 253);
-$hoverBtnBg2: #eee;
-$brandHoverFontC: rgb(112, 110, 110);
-$fontColorBlue: rgb(128, 167, 250);
-$softWhiteFont: rgb(245, 245, 245);
-$richBlue: rgb(50, 115, 175);
-$whiteFontAndBorder: rgb(232, 231, 231);
+$bannerDarkColor: rgb(51, 51, 51); // bannerDarkColor
+$linearGrad1: linear-gradient(rgb(51, 51, 51), #eee); // linearGrad1
+$softBlue: rgb(128, 167, 250); // softBlue
+$hoverBtnBg1: rgb(255, 253, 253); // hoverBtnBg1
+$hoverBtnBg2: #eee; // brandHoverFontC
+$brandHoverFontC: rgb(112, 110, 110); // brandHoverFontC
+$fontColorBlue: rgb(128, 167, 250); // fontColorBlue
+$softWhiteFont: rgb(245, 245, 245); //softWhiteFont
+$richBlue: rgb(50, 115, 175); // richBlue
+$whiteFontAndBorder: rgb(232, 231, 231); // whiteFontAndBorder
 
 // font families
 $font1: 'Merriweather', serif;
@@ -18,3 +18,10 @@ $font4: 'Titillium Web', sans-serif;
 $font5: 'Rubik', sans-serif;
 $font6: 'Cabin', sans-serif;
 $font7: 'Fjalla One', sans-serif;
+
+$color1: #5D001E;
+$color2: #E3E2DF;
+$color3: #E3AFBC;
+$color4: #9A1750;
+$color5: #EE4C7C;
+$color6: rgb(187,121,119); // replace this for color3

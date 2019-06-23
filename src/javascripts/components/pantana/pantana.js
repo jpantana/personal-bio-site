@@ -1,12 +1,12 @@
 import util from '../../helpers/util';
-// import img from '../../../../imgs/joshPantanaB&W.jpg';
+import img from '../../../../imgs/joshpantanablackbackground.jpg';
 
 import './pantana.scss';
 
 const profileImageBuilder = () => {
   const domString = `
   <div id="profilePicDiv">
-    <h2 id="imgH1"><span id="josh3">Software</span>Developer</h2>
+    <img id="profilePicImg" src="${img}" alt="photo of Josh Pantana with black background"> 
   </div>`;
   util.printToDom('mainDiv', domString);
 };

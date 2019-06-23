@@ -1,10 +1,11 @@
 @import '../../../styles/colorsAndFonts.scss';
 
 #profilePicImg {
-  transform: scale(.6);
-  margin-top: 0;
-  border-radius: 25px;
-  opacity: .5;
+  width: 80%;
+  margin: auto;
+  margin-top: 5em;
+  // margin-top: -44em;
+  // opacity: .5;
 }
 
 #profilePicDiv {
