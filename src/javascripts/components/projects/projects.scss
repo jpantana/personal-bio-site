@@ -2,71 +2,68 @@
 
 /* projects JS */
 
+.projContainerCol {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 .jsPage {
-  padding-top: 100px;
+  // padding-top: 100px;
 }
 
 .myCard {
-  // position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left !important;
   min-width: 250px;
   min-height: 300px;
-  max-width: 17em;
-  background-color: $hoverBtnBg2;
+  max-width: 60%;
+  background-color: $color8;
+  opacity: .5;
   padding: 30px;
-  border-radius: 9px;
   line-height: 2.0;
-  margin: 20px;
-  // margin-bottom: 100px; 
-}
-
-.titleH2 {
-  text-transform: uppercase;
-  font-family: $font7;
-  border-radius: 3px;
-  color:  $bannerDarkColor;
-  padding: 5px;
-  border: 1px solid  $bannerDarkColor;
-  border-radius: 7px;
-  text-align: center;
-  margin: auto;
+  margin: 0px;
   margin-bottom: 10px;
 }
 
-.projectImages {
-  width: 50%;
-  box-shadow: 5px 5px 5px 5px lightgrey;
-  margin: auto;
+.titleH2 {
+  width: 100%;
+  text-align: left !important;
+  text-transform: uppercase;
+  font-family: $font7;
+  border-radius: 3px;
+  color:  $color5;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
+// .projectImages {
+//   width: 50%;
+//   box-shadow: 5px 5px 5px 5px lightgrey;
+//   margin: auto;
+// }
+
 .jsTech, .jsAvail, .jsDescrip {
-  font-family: $font1;
+  font-family: $font2;
+  color: $color5;
 }
 
 .jsDescrip {
-  height: 13em;
   overflow: scroll;
 }
 
 .jsTech {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .projectLinksDiv {
-  // background-color: $brandHoverFontC;
-  width: 100%;
 }
 
 .jsLinks {
-  color: $richBlue;
-  width: 100%;
-  font-family: $font1;
+  color: $color1;
+
 }

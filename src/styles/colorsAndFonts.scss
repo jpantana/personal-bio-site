@@ -12,16 +12,31 @@ $whiteFontAndBorder: rgb(232, 231, 231); // whiteFontAndBorder
 
 // font families
 $font1: 'Merriweather', serif;
-$font2: 'Raleway', sans-serif;
+// $font2: 'Raleway', sans-serif;
+$font2: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 $font3: 'Noto Sans', sans-serif;
 $font4: 'Titillium Web', sans-serif;
 $font5: 'Rubik', sans-serif;
 $font6: 'Cabin', sans-serif;
 $font7: 'Fjalla One', sans-serif;
+$font8: 'Courgette', cursive;
 
-$color1: #5D001E;
-$color2: #E3E2DF;
-$color3: #E3AFBC;
-$color4: #9A1750;
-$color5: #EE4C7C;
-$color6: rgb(187,121,119); // replace this for color3
+// $color1: #5D001E;
+// $color2: #E3E2DF;
+// $color3: #E3AFBC;
+// $color4: #9A1750;
+// $color5: #EA5A4F;
+// $color6: rgb(187,121,119); // replace this for color3
+// $color7: #EE4C7C;
+
+
+$gradient1: linear-gradient(#EE4C7C, rgb(187,121,119));
+
+
+$color1: #17252A;
+$color2: #2B7A78;
+$color3: #311FA9;
+$color4: rgb(218, 216, 216); // #DEF2F1;
+$color5: #FEFFFF;
+$color7: rgb(17,17,17);
+$color8: #333333;

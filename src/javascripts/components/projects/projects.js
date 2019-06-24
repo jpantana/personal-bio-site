@@ -12,7 +12,8 @@ const createProjectCards = () => {
       for (let i = 0; i < projects.length; i += 1) {
         if (projects[i].available === true) {
           domString += `
-            <div class="myCard">
+          <div class="projContainerCol">
+            <div class="myCard bounceIn slideInRight" style="visibility: visible; animation-delay: 0s; animation-name: slideInRight;">
               <h2 class="titleH2">${projects[i].title}</h2>
               <p class="jsDescrip"><strong>Description:</strong> ${projects[i].description}</p>
               <p class="jsTech"><strong>Technolgies Used:</strong></br> ${projects[i].technologiesUsed}</p>
