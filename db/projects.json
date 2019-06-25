@@ -6,7 +6,7 @@
     "available": true,
     "url": "https://nutshell-pines.firebaseapp.com",
     "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine",
-    "image": "../imgs/pine.png"
+    "image": "https://raw.githubusercontent.com/jpantana/personal-bio-site/master/imgs/pine.png"
   },
   "project2": {
     "title": "Movie History",
@@ -15,7 +15,7 @@
     "available": true,
     "url": "https://moviehistory-30c91.firebaseapp.com",
     "githubUrl": "https://github.com/jpantana/movie_history",
-    "image": "../imgs/movies.png"
+    "image": "https://raw.githubusercontent.com/jpantana/personal-bio-site/master/imgs/movies.png"
   },
   "project3": {
     "title": "Tamagotchi",
@@ -24,6 +24,6 @@
     "available": true,
     "url": "https://tamagotchi-715dc.firebaseapp.com/",
     "githubUrl": "https://github.com/jpantana/tamagotchi",
-    "image": "../imgs/tama.png"
+    "image": "https://raw.githubusercontent.com/jpantana/personal-bio-site/master/imgs/tama.png"
   }
 }
