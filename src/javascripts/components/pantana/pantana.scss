@@ -1,0 +1,77 @@
+@import '../../../styles/colorsAndFonts.scss';
+
+#jpOnLoadDiv {
+  width: 100%;
+  margin: auto;
+  // background-color: $color2;
+}
+
+// #profilePicDiv {
+//   // margin-top: -5em;
+//   // display: flex;
+//   // flex-direction: column;
+//   align-items: flex-end;
+//   width: 500px;
+//   height: 500px;
+// }
+
+// #profilePicImg {
+//   width: 300px;
+//   // margin-left: auto;
+//   // margin-top: 125px;
+//   opacity: .8;
+// }
+
+#jpOnLoadBrandDiv {
+  width: 40%;
+  min-height: 20em;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  background-color: $color4;
+  border-radius: 10px;
+}
+
+#jpOnLoadName {
+  font-family: $font7;
+  background-color: transparent;
+  color:  $color1;
+  padding: 5px;
+  font-size: 8.5em;
+  text-transform: uppercase;
+  // margin-top: 100px;
+  text-align: center;
+}
+
+#JPbodyHeader {
+  font-size: 3.7em !important;
+  color: transparent; // $color8;
+  text-transform: uppercase;
+  position: relative;
+  // right: 210px;
+  top: -60px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: $color5;
+}
+
+#jpOnLoadTitle {
+  color: $color5;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+// #josh3 {
+//   font-family: $font7;
+//   color: $richBlue;
+//   padding: 5px;
+//   -webkit-text-stroke-color:  transparent;
+// }
+
+// .h3 {       
+//   color: $brandHoverFontC;
+//   text-align: center;
+//   padding-top: 0;
+//   font-family: $font2;
+//   font-size: 1em;
+// }

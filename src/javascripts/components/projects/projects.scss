@@ -1,0 +1,69 @@
+@import '../../../styles/colorsAndFonts.scss';
+
+/* projects JS */
+
+.projContainerCol {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.jsPage {
+  // padding-top: 100px;
+}
+
+.myCard {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  flex-wrap: wrap;
+  text-align: left !important;
+  min-width: 250px;
+  min-height: 300px;
+  max-width: 60%;
+  background-color: $color8;
+  opacity: .5;
+  padding: 30px;
+  line-height: 2.0;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.titleH2 {
+  width: 100%;
+  text-align: left !important;
+  text-transform: uppercase;
+  font-family: $font7;
+  border-radius: 3px;
+  color:  $color5;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+// .projectImages {
+//   width: 50%;
+//   box-shadow: 5px 5px 5px 5px lightgrey;
+//   margin: auto;
+// }
+
+.jsTech, .jsAvail, .jsDescrip {
+  font-family: $font2;
+  color: $color5;
+}
+
+.jsDescrip {
+  overflow: scroll;
+}
+
+.jsTech {
+  font-size: 12px;
+}
+
+.projectLinksDiv {
+}
+
+.jsLinks {
+  color: $color1;
+
+}
