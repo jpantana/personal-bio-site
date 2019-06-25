@@ -4,66 +4,115 @@
 
 .projContainerCol {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   margin: 0;
 }
 
 .jsPage {
-  // padding-top: 100px;
+
 }
 
 .myCard {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   word-wrap: break-word;
   background-clip: border-box;
-  flex-wrap: wrap;
-  text-align: left !important;
+  text-align: center !important;
   min-width: 250px;
-  min-height: 300px;
-  max-width: 60%;
-  background-color: $color8;
-  opacity: .5;
-  padding: 30px;
+  max-width: 325px;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  max-height: 280px;
+  background-color: $color5;
   line-height: 2.0;
-  margin: 0px;
-  margin-bottom: 10px;
+  margin: 15px;
+  border: 1px solid $color8;
+  border-radius: 6px;
+  
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 3px 5px $color4;
+    transition: .5s;
+  }
 }
 
 .titleH2 {
   width: 100%;
-  text-align: left !important;
+  letter-spacing: .25ch;
+  text-align: center !important;
   text-transform: uppercase;
   font-family: $font7;
-  border-radius: 3px;
-  color:  $color5;
+  color: $color4;
   padding: 5px;
   margin-bottom: 10px;
+  background-color: $color8;
 }
 
-// .projectImages {
-//   width: 50%;
-//   box-shadow: 5px 5px 5px 5px lightgrey;
-//   margin: auto;
-// }
+.projImage {
+  width: 290px;
+  margin-left: 16px;
+  box-shadow: 2px 2px 4px $color4;
+}
 
 .jsTech, .jsAvail, .jsDescrip {
   font-family: $font2;
-  color: $color5;
+  color: $color4;
+}
+
+.techAndDescrip {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: $color2;
 }
 
 .jsDescrip {
-  overflow: scroll;
+  padding-top: 10px;
+  width: 100%;
+  line-height: 1;
+}
+
+.descripSpan {
+  color: $color8;
+  text-transform: uppercase;
+  font-family: $font7;
+  text-align: left !important;
 }
 
 .jsTech {
-  font-size: 12px;
+  // font-size: 12px;
+  text-align: center;
+  color: $color8;
+  margin: 5px;
+}
+
+.techUsed {
+  border-radius: 5px;
+  border: .5px solid $color7!important;
+  width: 50%;
+  text-transform: uppercase;
+  font-family: $font7;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 5px;
 }
 
 .projectLinksDiv {
+  // background-color: $color4;
+  padding-top: 20px;
+  margin: 0;
+  height: auto;
+}
+
+.projectLinks {
+  border-radius: 5px;
+  border: .5px solid $color7;
+  width: 50%;
+  text-transform: uppercase;
+  font-family: $font7;
+  margin: auto;
 }
 
 .jsLinks {
   color: $color1;
-
 }

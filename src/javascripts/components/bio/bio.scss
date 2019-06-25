@@ -12,6 +12,23 @@
   box-shadow: 1px 1px 3px $color1;
 }
 
+#JPPhoto {
+  left: 30%;
+  top: 22.2%;
+  z-index: -1;
+}
+
+.jpImg {
+  // position: absolute;
+  left: 30%;
+  // top: 25%;
+  width: 200px;
+  opacity: .5;
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 200px;
+}
+
 #aboutH1 {
   font-family: $font7;
   color:  $color7;

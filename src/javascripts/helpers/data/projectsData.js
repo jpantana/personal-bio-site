@@ -10,9 +10,7 @@ const getProjectData = () => new Promise((resolve, reject) => {
       const projectsObject = result.data;
       const projectArray = [];
       if (projectsObject !== null) {
-        console.error('object keys', Object.keys(projectsObject));
         Object.keys(projectsObject).forEach((userId) => {
-          console.error('userId', userId);
           projectsObject[userId].id = userId;
           projectArray.push(projectsObject[userId]);
         });
