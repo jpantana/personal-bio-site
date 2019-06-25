@@ -1,8 +1,7 @@
-// import projectsData from '../../helpers/data/projectsData';
-
 import util from '../../helpers/util';
 
 import './bio.scss';
+// import img from '../../../../imgs/jpantanasuit.jpg';
 
 import 'bootstrap';
 
@@ -24,3 +23,6 @@ const bioDivBuilder = (e) => {
 };
 
 export default { bioDivBuilder };
+/* <div id="JPPhoto">
+  <img class="jpImg" src="${img}" alt="josh pantana">
+</div> */

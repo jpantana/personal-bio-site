@@ -3,75 +3,68 @@
 #jpOnLoadDiv {
   width: 100%;
   margin: auto;
+  flex-flow: row nowrap;
   // background-color: $color2;
 }
 
-// #profilePicDiv {
-//   // margin-top: -5em;
-//   // display: flex;
-//   // flex-direction: column;
-//   align-items: flex-end;
-//   width: 500px;
-//   height: 500px;
-// }
-
-// #profilePicImg {
-//   width: 300px;
-//   // margin-left: auto;
-//   // margin-top: 125px;
-//   opacity: .8;
-// }
-
 #jpOnLoadBrandDiv {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  flex-wrap: nowrap;
   width: 40%;
   min-height: 20em;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 4em;
   text-align: center;
-  background-color: $color4;
-  border-radius: 10px;
+  background-color: $color5;
+  // border-radius: 10px;
+  border-left: solid 8em $color8;
+  border-right: solid 8em $color8;
+  box-shadow: -2px 2px 12px $color4;
 }
 
 #jpOnLoadName {
   font-family: $font7;
+  font-weight: 700;
   background-color: transparent;
-  color:  $color1;
-  padding: 5px;
-  font-size: 8.5em;
+  letter-spacing: .4em;
+  color:  $color4;
+  // padding: 5px;
+  font-size: 7.5em;
   text-transform: uppercase;
-  // margin-top: 100px;
+  margin-left: -80px;
+  margin-top: 80px;
   text-align: center;
 }
 
+.J, .H {
+  color: $color5;
+}
+
 #JPbodyHeader {
-  font-size: 3.7em !important;
+  font-size: 60px !important;
+  letter-spacing: .45em;
   color: transparent; // $color8;
   text-transform: uppercase;
   position: relative;
-  // right: 210px;
-  top: -60px;
+  top: -70px;
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: $color5;
+  -webkit-text-stroke-color: $color4;
 }
 
 #jpOnLoadTitle {
-  color: $color5;
-  font-size: 20px;
+  color: $color4;
+  width: 190%;
+  font-family: $font7;
+  font-size: 18px !important;
   font-style: italic;
-  margin-top: -30px;
+  margin: auto;
+  margin-left: -79px;
+  margin-top: -75px;
+  letter-spacing: 1.35ch;
 }
 
-// #josh3 {
-//   font-family: $font7;
-//   color: $richBlue;
-//   padding: 5px;
-//   -webkit-text-stroke-color:  transparent;
-// }
-
-// .h3 {       
-//   color: $brandHoverFontC;
-//   text-align: center;
-//   padding-top: 0;
-//   font-family: $font2;
-//   font-size: 1em;
-// }
+#soft, #oper {
+  color: $color7;
+}

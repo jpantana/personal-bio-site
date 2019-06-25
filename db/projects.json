@@ -1,29 +1,29 @@
 {
   "project1": {
     "title": "Nutshell Pine",
-    "screenshot": "imgs/art-ball-shaped-circle-414860.jpg",
     "description": "Nutshell Pine is a group collaboration that employees Modular Javascript, and Asynchronous requests. This project achieves full CRUD",
     "technologiesUsed": "Webpack, Asynchronous JS, firebase database, axios, promises, scss.",
     "available": true,
     "url": "https://nutshell-pines.firebaseapp.com",
-    "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine"
+    "githubUrl": "https://github.com/nss-evening-cohort-9/nutshell-pine",
+    "image": "../imgs/pine.png"
   },
   "project2": {
     "title": "Movie History",
-    "screenshot": "./imgs/art-ball-shaped-circle-414860.jpg",
     "description": "Movie History implements axios get/put/delete/place, and smash functionality that creates new data sets to print to a watchlist section.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
     "url": "https://moviehistory-30c91.firebaseapp.com",
-    "githubUrl": "https://github.com/jpantana/movie_history"
+    "githubUrl": "https://github.com/jpantana/movie_history",
+    "image": "../imgs/movies.png"
   },
   "project3": {
     "title": "Tamagotchi",
-    "screenshot": "./imgs/art-ball-shaped-circle-414860.jpg",
     "description": "Remember the 90s? Well, one of the great fads is commemorated in this app. Tamagotchi uses event listeners and Math constructors to regulate the score of modules and overall score.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
     "url": "https://tamagotchi-715dc.firebaseapp.com/",
-    "githubUrl": "https://github.com/jpantana/tamagotchi"
+    "githubUrl": "https://github.com/jpantana/tamagotchi",
+    "image": "../imgs/tama.png"
   }
 }
