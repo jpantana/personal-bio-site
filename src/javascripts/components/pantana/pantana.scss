@@ -2,6 +2,7 @@
 
 #jpOnLoadDiv {
   width: 100%;
+  margin: auto;
   // background-color: $color2;
 }
 
@@ -26,7 +27,6 @@
   min-height: 20em;
   margin: auto;
   margin-top: 40px;
-  // justify-content: flex-start;
   text-align: center;
   background-color: $color4;
   border-radius: 10px;
@@ -45,18 +45,20 @@
 
 #JPbodyHeader {
   font-size: 3.7em !important;
-  color: $color8;
+  color: transparent; // $color8;
   text-transform: uppercase;
   position: relative;
   // right: 210px;
-  top: -40px;
+  top: -60px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: $color5;
 }
 
 #jpOnLoadTitle {
   color: $color5;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 // #josh3 {
