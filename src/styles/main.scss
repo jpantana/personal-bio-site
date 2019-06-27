@@ -21,6 +21,198 @@ html, body {
     height: 100%;
 }
 
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+        /* container DIV */
+        .container {
+            flex-direction: column;
+            flex-grow: 0;
+            margin: auto;
+            justify-content: center;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #mainDiv {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: inherit;
+            align-content: space-between;
+        }
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /* nav section */
+        #mainNav {
+            height: 5.5em;
+            margin-top: 0;
+            background: linear-gradient(to left, $color7, $color8);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: sticky;
+        }
+
+        .navBar {
+            display: flex;
+            flex-flow: wrap row;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .jpan {
+            margin-left: 5%;
+            text-align: center;
+            padding: 5px;
+            text-transform: uppercase;
+            letter-spacing: -.1em;
+            background-color: $color5;
+            font-family: $font6;
+            font-size: 46px;
+            font-weight: 100;
+            font-style: italic;
+            color: $color1;
+            height: 85%;
+            width: 20.2%;
+            margin-top: 3px;
+            border-radius: 50px;
+            &:hover {
+                transition: .8s;
+                color: $color2;
+                background-color: $color4;
+                cursor: pointer;
+            }
+        }
+
+        #joshJ { 
+            position: relative;
+            left: -4px;
+            top: 0px;
+        }
+        #joshP {
+            position: relative;
+            top: 0px;
+            left: -5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 12px !important;
+        }
+
+        .navItems {
+            margin-left: 60px;
+        }
+
+        .navLi {
+            line-height: 2em;
+            padding: 5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $color7;
+            font-family: $font2;
+            font-size: 14px;
+            padding-top: 0px;
+            padding-bottom: 3px;
+            display:inline-block; 
+            &:hover {
+                color: $color4;
+            }
+                &:after {
+                    display:block;
+                    content: '';
+                    border-bottom: solid 3px $color4;  
+                    transform: scaleX(0);  
+                    transition: transform 250ms ease-in-out;
+                }
+                &:hover:after { 
+                    transform: scaleX(1);
+                }
+                &.fromLeft:after{  
+                    transform-origin:  0% 50%; 
+                }
+            }
+
+        #contact {
+            color: $color7;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .contactLi {
+            margin-right: 40px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        // second go at navbar version with socials:
+        .socialIconsDivNav {
+            display: flex;
+            justify-content: space-between;
+            margin: auto!important;
+            padding: 3px;
+            height: 100%;
+            height: inherit;
+        }
+
+        .socialsList {
+            flex-flow: row nowrap;
+            margin: auto;
+            margin-left: -25px;
+        }
+
+        .socialLi {
+            padding: 12px;
+            display: inline;
+            text-transform: uppercase;
+            font-family: $font2;
+        }
+
+        .social-button {
+            font-size: 20px;
+            color: $color4;
+            background-color: transparent;
+            border-radius: 30px;
+            margin-top: 20px;
+            &:hover {
+                color: $color5;
+                background-color: transparent !important;
+                transform: scale(1.3);
+                transition: .5s;
+            }
+        }
+
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /* footer section */
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            width: 100%;
+            height: 80px;
+            background-color: $color4;
+        }
+
+        .footerP {
+            margin-top: 5px;
+            color: $color8!important;
+        }
+}
+
+
+
 /* ----------- Retina Screens ----------- */
 @media screen 
 and (min-device-width: 1200px) 
@@ -29,6 +221,190 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (min-resolution: 192dpi) { 
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /* container DIV */
+        .container {
+            flex-direction: column;
+            flex-grow: 0;
+            margin: auto;
+            justify-content: center;
+            padding: 0;
+        }
+
+        #mainDiv {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: inherit;
+            align-content: space-between;
+        }
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /* nav section */
+        #mainNav {
+            height: 5.5em;
+            margin-top: 0;
+            background: linear-gradient(to left, $color7, $color8);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: sticky;
+        }
+
+        .navBar {
+            display: flex;
+            flex-flow: wrap row;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .jpan {
+            margin-left: 5%;
+            text-align: center;
+            padding: 5px;
+            text-transform: uppercase;
+            letter-spacing: -.1em;
+            background-color: $color5;
+            font-family: $font6;
+            font-size: 46px;
+            font-weight: 100;
+            font-style: italic;
+            color: $color1;
+            height: 85%;
+            width: 5.8%;
+            border-radius: 50px;
+            &:hover {
+                transition: .8s;
+                color: $color2;
+                background-color: $color4;
+                cursor: pointer;
+            }
+        }
+
+        #joshJ { 
+            position: relative;
+            left: -4px;
+            top: 0px;
+        }
+        #joshP {
+            position: relative;
+            top: 0px;
+            left: -5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 12px !important;
+        }
+
+        .navLi {
+            line-height: 2em;
+            padding: 10px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $color4;
+            font-family: $font2;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            display:inline-block; 
+            &:hover {
+                color: $color5;
+            }
+                &:after {
+                    display:block;
+                    content: '';
+                    border-bottom: solid 3px $color4;  
+                    transform: scaleX(0);  
+                    transition: transform 250ms ease-in-out;
+                }
+                &:hover:after { 
+                    transform: scaleX(1);
+                }
+                &.fromLeft:after{  
+                    transform-origin:  0% 50%; 
+                }
+            }
+
+        #contact {
+            color: $color4;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .contactLi {
+            margin-right: 40px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        // second go at navbar version with socials:
+        .socialIconsDivNav {
+            display: flex;
+            justify-content: space-between;
+            margin: right!important;
+            padding: 10px;
+            height: inherit;
+        }
+
+        .socialsList {
+            flex-flow: row nowrap;
+            margin: auto;
+        }
+
+        .socialLi {
+            padding: 40px;
+            display: inline;
+            text-transform: uppercase;
+            font-family: $font2;
+        }
+
+        .social-button {
+            font-size: 25px;
+            color: $color4;
+            background-color: transparent;
+            border-radius: 30px;
+            margin-top: 10px;
+            &:hover {
+                color: $color5;
+                background-color: transparent !important;
+                transform: scale(1.3);
+                transition: .5s;
+            }
+        }
+
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    /* footer section */
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            width: 100%;
+            height: 80px;
+            background-color: $color4;
+        }
+
+        .footerP {
+            margin-top: 5px;
+            color: $color8!important;
+        }
+    }
+
+
+
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+                // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* container DIV */
         .container {
             flex-direction: column;
@@ -75,15 +451,13 @@ and (min-resolution: 192dpi) {
             text-transform: uppercase;
             letter-spacing: -.1em;
             background-color: $color5;
-            // font-family: $font7;
-            // font-family: 'Bungee Inline', sans-serif;
             font-family: $font6;
             font-size: 46px;
             font-weight: 100;
             font-style: italic;
             color: $color1;
             height: 85%;
-            width: 5.8%;
+            width: 7.2%;
             border-radius: 50px;
             &:hover {
                 transition: .8s;
@@ -115,8 +489,7 @@ and (min-resolution: 192dpi) {
             padding: 10px;
             text-transform: uppercase;
             text-decoration: none;
-            // color: $color1; // whiteFontAndBorder
-            color: $color4; // whiteFontAndBorder
+            color: $color4;
             font-family: $font2;
             font-size: 18px;
             padding-top: 3px;
@@ -155,40 +528,7 @@ and (min-resolution: 192dpi) {
             text-decoration: none;
         }
 
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    /* Social Icons Vertical left  */
-        // .socialIconsDiv {
-        //     padding: 10px;
-        //     width: 5%;
-        //     height: 100%;
-        //     height: inherit;
-        //     background-color: $color4;
-        // }
-
-        // .socialLi {
-        //     line-height: 3em;
-        //     padding: 14px;
-        //     display: inline;
-        //     text-transform: uppercase;
-        //     font-family: $font2;
-        // }
-
-        // .social-button {
-        //     font-size: 25px;
-        //     color: $color2;
-        //     background-color: transparent;
-        //     border-radius: 30px;
-        //     margin-left: -12%;
-        //     margin-top: 40px;
-        //     &:hover {
-        //         background-color: transparent !important;
-        //         transform: scale(1.3);
-        //         transition: .5s;
-        //     }
-        // }
-
-
-        // second go at navbar version with socials:
+        // socials:
         .socialIconsDivNav {
             display: flex;
             justify-content: space-between;
@@ -228,7 +568,7 @@ and (min-resolution: 192dpi) {
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* footer section */
         footer {
-            margin-top: auto; // used to be inherit FYI
+            margin-top: auto;
             padding: 10px;
             width: 100%;
             height: 80px;
@@ -239,16 +579,6 @@ and (min-resolution: 192dpi) {
             margin-top: 5px;
             color: $color8!important;
         }
-    }
-
-/* ----------- iPad Pro 10.5" ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
 }
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
