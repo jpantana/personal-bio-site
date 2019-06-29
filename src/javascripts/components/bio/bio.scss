@@ -71,10 +71,9 @@
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 834px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2){
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  and (-webkit-min-device-pixel-ratio: 2) {
     /* main body section */
     #bioPage {
       text-align: center;
@@ -118,8 +117,6 @@
       margin-bottom: 25px;
       text-align: center;
     }
-
-    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     .h3 {       
       color: $color7;

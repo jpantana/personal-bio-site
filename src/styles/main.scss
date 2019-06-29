@@ -70,6 +70,8 @@ html, body {
 
         .jpan {
             margin-left: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
             text-align: center;
             padding: 5px;
             text-transform: uppercase;
@@ -81,8 +83,9 @@ html, body {
             font-style: italic;
             color: $color1;
             height: 85%;
-            width: 20.2%;
-            margin-top: 3px;
+            height: 1.7em;
+            width: 1.7em;
+
             border-radius: 50px;
             &:hover {
                 transition: .8s;
@@ -110,7 +113,8 @@ html, body {
         }
 
         .navItems {
-            margin-left: 60px;
+            margin: auto;
+            margin-right: 20px;
         }
 
         .navLi {
@@ -260,6 +264,8 @@ and (min-resolution: 192dpi) {
 
         .jpan {
             margin-left: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
             text-align: center;
             padding: 5px;
             text-transform: uppercase;
@@ -270,8 +276,8 @@ and (min-resolution: 192dpi) {
             font-weight: 100;
             font-style: italic;
             color: $color1;
-            height: 85%;
-            width: 5.8%;
+            height: 1.7em;
+            width: 1.7em;
             border-radius: 50px;
             &:hover {
                 transition: .8s;
@@ -403,8 +409,19 @@ and (min-resolution: 192dpi) {
 @media only screen 
   and (min-device-width: 834px) 
   and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {}
+
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-                // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* container DIV */
         .container {
             flex-direction: column;
@@ -428,7 +445,6 @@ and (min-resolution: 192dpi) {
         #mainNav {
             height: 5.5em;
             margin-top: 0;
-            // background-color: $color7;
             background: linear-gradient(to left, $color7, $color8);
             margin: 0;
             padding: 0;
@@ -446,6 +462,8 @@ and (min-resolution: 192dpi) {
 
         .jpan {
             margin-left: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
             text-align: center;
             padding: 5px;
             text-transform: uppercase;
@@ -457,7 +475,9 @@ and (min-resolution: 192dpi) {
             font-style: italic;
             color: $color1;
             height: 85%;
-            width: 7.2%;
+            width: 5.5%;
+            height: 1.7em;
+            width: 1.7em;
             border-radius: 50px;
             &:hover {
                 transition: .8s;
@@ -484,12 +504,17 @@ and (min-resolution: 192dpi) {
             margin-top: 12px !important;
         }
 
+        .navItems {
+            margin: auto;
+            // margin-left: 27%;
+        }
+
         .navLi {
             line-height: 2em;
             padding: 10px;
             text-transform: uppercase;
             text-decoration: none;
-            color: $color4;
+            color: $color7;
             font-family: $font2;
             font-size: 18px;
             padding-top: 3px;
@@ -514,7 +539,7 @@ and (min-resolution: 192dpi) {
             }
 
         #contact {
-            color: $color4;
+            color: $color7;
             &:hover {
                 text-decoration: none;
             }
@@ -581,12 +606,3 @@ and (min-resolution: 192dpi) {
         }
 }
 
-/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
