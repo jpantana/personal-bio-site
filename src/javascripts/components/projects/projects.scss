@@ -6,7 +6,7 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 2) {
 
   /* projects JS */
 
@@ -32,18 +32,27 @@
     max-width: 325px;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    max-height: 280px;
+    // max-height: 280px;
     background-color: $color5;
     line-height: 2.0;
     // margin: 15px;
     border: 1px solid $color8;
     border-radius: 6px;
-    
     &:hover {
       transform: scale(1.03);
       box-shadow: 3px 3px 5px $color4;
       transition: .5s;
     }
+  }
+
+  .card1 {
+    align-self: flex-start
+  }
+  .card2 {
+    align-self: flex-start
+  }
+  .card3 {
+    align-self: flex-start
   }
 
   .titleH2 {
@@ -127,6 +136,11 @@
     color: $color1;
   }
 
+  .chevron {
+    font-size: 25px;
+    color: $color7;
+  }
+
 }
 
 
@@ -163,7 +177,7 @@
     max-width: 440px;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    max-height: 280px;
+    // max-height: 280px;
     background-color: $color5;
     line-height: 2.0;
     margin: 15px;
@@ -257,6 +271,11 @@
     color: $color1;
   }
 
+  .chevron {
+    font-size: 25px;
+    color: $color7;
+  }
+
 }
 
 
@@ -290,7 +309,7 @@ and (min-resolution: 192dpi) {
     max-width: 325px;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    max-height: 280px;
+    // max-height: 280px;
     background-color: $color5;
     line-height: 2.0;
     margin: 15px;
@@ -382,5 +401,10 @@ and (min-resolution: 192dpi) {
 
   .jsLinks {
     color: $color1;
+  }
+
+  .chevron {
+    font-size: 25px;
+    color: $color7;
   }
 }

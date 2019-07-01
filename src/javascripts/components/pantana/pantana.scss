@@ -7,7 +7,7 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 2) {
     #jpOnLoadDiv {
       width: 100%;
       margin: auto;
@@ -39,7 +39,7 @@
       color:  $color4;
       font-size: 5.5em;
       text-transform: uppercase;
-      margin-left: -57px;
+      margin-left: -60px;
       margin-top: 60px;
       text-align: center;
     }
@@ -55,7 +55,7 @@
       text-transform: uppercase;
       position: relative;
       top: -60px;
-      left: -6;
+      left: -8;
       -webkit-text-stroke: 2px;
       -webkit-text-stroke-color: $color4;
     }
@@ -86,118 +86,78 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2){
-
-    #jpOnLoadDiv {
+    #jpOnLoadBrandDiv {
+      position: relative;
+      background-color: $color4;
       height: 432px;
-      width: 432px;
-      background-color: $color7;
+      width: 432px;      
     }
-
+    this is old code
     #jpOnLoadDiv {
-      color: $color4;
+      width: 60%;
+      margin: auto;
+    }
+  
+    #jpOnLoadBrandDiv {
+      padding-top: 10px;
+      padding-bottom: 80px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 80%;
+      min-height: 20em;
+      margin: auto;
+      margin-top: 2em;
       text-align: center;
-      // padding-top: 15%;
+      background-color: $color7;
+      border-left: solid 8em $color8;
+      border-right: solid 8em $color8;
+      box-shadow: -2px 2px 12px $color4;
     }
-
+  
     #jpOnLoadName {
-        font-family: $font7;
-        font-weight: 700;
-        font-size: 10em;
-        text-transform: uppercase;
-        letter-spacing: .2em;
-        // background-color: $color5;
-        height: 432px;
-        padding: 0;
+      font-family: $font7;
+      font-weight: 700;
+      background-color: transparent;
+      letter-spacing: .25em;
+      color:  $color4;
+      font-size: 8.5em;
+      text-transform: uppercase;
+      margin-left: -65px;
+      margin-top: 70px;
+      text-align: center;
     }
-
+  
+    .J, .H {
+      color: $color5;
+    }
+  
     #JPbodyHeader {
-        font-size: 45px !important;
-        letter-spacing: .72em;
-        color: transparent;
-        text-transform: uppercase;
-        position: relative;
-        top: -70px;
-        left: -0;
-        -webkit-text-stroke: 2px;
-        -webkit-text-stroke-color: $color4;
-      }
-
-    // #jpOnLoadBrandDiv {
-    //   position: relative;
-    //   background-color: $color4;
-    //   opacity: .5;
-    //   height: 432px;
-    //   width: 432px;
-      
-    //   // margin-top: auto;
-    // }
-    // this is old code
-    // #jpOnLoadDiv {
-    //   width: 60%;
-    //   margin: auto;
-    //   // flex-flow: row nowrap;
-    // }
+      font-size: 45px !important;
+      letter-spacing: .72em;
+      color: transparent;
+      text-transform: uppercase;
+      position: relative;
+      top: -70px;
+      left: -0;
+      -webkit-text-stroke: 2px;
+      -webkit-text-stroke-color: $color4;
+    }
   
-    // #jpOnLoadBrandDiv {
-    //   padding-top: 10px;
-    //   padding-bottom: 80px;
-    //   flex-direction: column;
-    //   flex-wrap: nowrap;
-    //   width: 100%;
-    //   min-height: 20em;
-    //   margin: auto;
-    //   margin-top: 2em;
-    //   text-align: center;
-    //   background-color: $color7;
-    //   border-left: solid 8em $color8;
-    //   border-right: solid 8em $color8;
-    //   box-shadow: -2px 2px 12px $color4;
-    // }
+    #jpOnLoadTitle {
+      color: $color4;
+      width: 250%;
+      font-family: $font7;
+      font-size: 22px !important;
+      font-style: italic;
+      margin: auto;
+      margin-left: -170px;
+      margin-top: -55px;
+      letter-spacing: .9ch;
+    }
   
-    // #jpOnLoadName {
-    //   font-family: $font7;
-    //   font-weight: 700;
-    //   background-color: transparent;
-    //   letter-spacing: .25em;
-    //   color:  $color4;
-    //   font-size: 8.5em;
-    //   text-transform: uppercase;
-    //   margin-left: -86px;
-    //   margin-top: 70px;
-    //   text-align: center;
-    // }
-  
-    // .J, .H {
-    //   color: $color5;
-    // }
-  
-    // #JPbodyHeader {
-    //   font-size: 45px !important;
-    //   letter-spacing: .72em;
-    //   color: transparent;
-    //   text-transform: uppercase;
-    //   position: relative;
-    //   top: -70px;
-    //   left: -0;
-    //   -webkit-text-stroke: 2px;
-    //   -webkit-text-stroke-color: $color4;
-    // }
-  
-    // #jpOnLoadTitle {
-    //   color: $color4;
-    //   width: 250%;
-    //   font-family: $font7;
-    //   font-size: 22px !important;
-    //   font-style: italic;
-    //   margin: auto;
-    //   margin-left: -150px;
-    //   margin-top: -55px;
-    //   letter-spacing: .9ch;
-    // }
-  
-    // #soft, #oper {
-    //   color: $color4;
-    // }
+    #soft, #oper {
+      color: $color4;
+    }
 }
 
 
