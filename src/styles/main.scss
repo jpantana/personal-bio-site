@@ -28,7 +28,7 @@ html, body {
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 811px) 
+  and (max-device-width: 500px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
         /* container DIV */
         .container {
@@ -608,7 +608,7 @@ and (min-resolution: 192dpi) {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 768px) 
+  and (min-device-width: 501px) 
   and (max-device-width: 972px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -799,7 +799,7 @@ and (min-resolution: 192dpi) {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 973px) 
+  and (min-device-width: 1024px) 
   and (max-device-width: 1199px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -920,7 +920,7 @@ and (min-resolution: 192dpi) {
             }
 
         #contact {
-            color: $color7;
+            color: $color4;
             &:hover {
                 text-decoration: none;
             }
