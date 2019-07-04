@@ -1,118 +1,389 @@
 @import '../../../styles/colorsAndFonts.scss';
 
-/* projects JS */
+/* ----------- iPhone X ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-.projContainerCol {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0;
-}
-
-.jsPage {
-
-}
-
-.myCard {
-  display: flex;
-  flex-flow: column nowrap;
-  word-wrap: break-word;
-  background-clip: border-box;
-  text-align: center !important;
-  min-width: 250px;
-  max-width: 325px;
-  overflow-y: scroll !important;
-  overflow-x: hidden !important;
-  max-height: 280px;
-  background-color: $color5;
-  line-height: 2.0;
-  margin: 15px;
-  border: 1px solid $color8;
-  border-radius: 6px;
-  
-  &:hover {
-    transform: scale(1.03);
-    box-shadow: 3px 3px 5px $color4;
-    transition: .5s;
+  .projContainerCol {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    margin-top: 3em;
   }
+
+  .myCard {
+    display: flex;
+    flex-flow: column nowrap;
+    word-wrap: break-word;
+    background-clip: border-box;
+    text-align: center !important;
+    min-width: 250px;
+    max-width: 325px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    background-color: $color5;
+    line-height: 2.0;
+    border: 1px solid $color8;
+    border-radius: 6px;
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 3px 3px 5px $color4;
+      transition: .5s;
+    }
+  }
+
+  .card1 {
+    align-self: flex-start
+  }
+  .card2 {
+    align-self: flex-start
+  }
+  .card3 {
+    align-self: flex-start
+  }
+
+  .titleH2 {
+    width: 100%;
+    letter-spacing: .25ch;
+    text-align: center !important;
+    text-transform: uppercase;
+    font-family: $font7;
+    color: $color4;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: $color8;
+  }
+
+  .projImage {
+    width: 290px;
+    margin-left: 16px;
+    box-shadow: 2px 2px 4px $color4;
+  }
+
+  .jsTech, .jsAvail, .jsDescrip {
+    font-family: $font2;
+    color: $color4;
+  }
+
+  .techAndDescrip {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: $color2;
+  }
+
+  .jsDescrip {
+    padding-top: 10px;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .descripSpan {
+    color: $color8;
+    text-transform: uppercase;
+    font-family: $font7;
+    text-align: left !important;
+  }
+
+  .jsTech {
+    // font-size: 12px;
+    text-align: center;
+    color: $color8;
+    margin: 5px;
+  }
+
+  .techUsed {
+    border-radius: 5px;
+    border: .5px solid $color7!important;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  .projectLinksDiv {
+    // background-color: $color4;
+    padding-top: 20px;
+    margin: 0;
+    height: auto;
+  }
+
+  .projectLinks {
+    border-radius: 5px;
+    border: .5px solid $color7;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+  }
+
+  .jsLinks {
+    color: $color1;
+  }
+
+  .chevron {
+    font-size: 25px;
+    color: $color7;
+  }
+
 }
 
-.titleH2 {
-  width: 100%;
-  letter-spacing: .25ch;
-  text-align: center !important;
-  text-transform: uppercase;
-  font-family: $font7;
-  color: $color4;
-  padding: 5px;
-  margin-bottom: 10px;
-  background-color: $color8;
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1199px) {
+
+  .projContainerCol {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5em;
+  }
+
+  .jsPage {
+
+  }
+
+  .myCard {
+    display: flex;
+    flex-flow: column nowrap;
+    word-wrap: break-word;
+    background-clip: border-box;
+    text-align: center !important;
+    min-width: 250px;
+    max-width: 440px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    background-color: $color5;
+    line-height: 2.0;
+    margin: 15px;
+    border: 1px solid $color8;
+    border-radius: 6px;
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 3px 3px 5px $color4;
+      transition: .5s;
+    }
+  }
+
+  .titleH2 {
+    width: 100%;
+    letter-spacing: .25ch;
+    text-align: center !important;
+    text-transform: uppercase;
+    font-family: $font7;
+    color: $color4;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: $color8;
+  }
+
+  .projImage {
+    width: 315px;
+    margin: auto;
+    box-shadow: 2px 2px 4px $color4;
+  }
+
+  .jsTech, .jsAvail, .jsDescrip {
+    font-family: $font2;
+    color: $color4;
+  }
+
+  .techAndDescrip {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: $color2;
+  }
+
+  .jsDescrip {
+    padding-top: 10px;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .descripSpan {
+    color: $color8;
+    text-transform: uppercase;
+    font-family: $font7;
+    text-align: left !important;
+  }
+
+  .jsTech {
+    text-align: center;
+    color: $color8;
+    margin: 5px;
+  }
+
+  .techUsed {
+    border-radius: 5px;
+    border: .5px solid $color7!important;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  .projectLinksDiv {
+    padding-top: 20px;
+    margin: 0;
+    height: auto;
+  }
+
+  .projectLinks {
+    border-radius: 5px;
+    border: .5px solid $color7;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+  }
+
+  .jsLinks {
+    color: $color1;
+  }
+
+  .chevron {
+    font-size: 25px;
+    color: $color7;
+  }
+
 }
 
-.projImage {
-  width: 290px;
-  margin-left: 16px;
-  box-shadow: 2px 2px 4px $color4;
-}
 
-.jsTech, .jsAvail, .jsDescrip {
-  font-family: $font2;
-  color: $color4;
-}
+/* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+// and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
 
-.techAndDescrip {
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-  background-color: $color2;
-}
 
-.jsDescrip {
-  padding-top: 10px;
-  width: 100%;
-  line-height: 1;
-}
+  /* projects JS */
 
-.descripSpan {
-  color: $color8;
-  text-transform: uppercase;
-  font-family: $font7;
-  text-align: left !important;
-}
+  .projContainerCol {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+  }
 
-.jsTech {
-  // font-size: 12px;
-  text-align: center;
-  color: $color8;
-  margin: 5px;
-}
+  .jsPage {
 
-.techUsed {
-  border-radius: 5px;
-  border: .5px solid $color7!important;
-  width: 50%;
-  text-transform: uppercase;
-  font-family: $font7;
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 5px;
-}
+  }
 
-.projectLinksDiv {
-  // background-color: $color4;
-  padding-top: 20px;
-  margin: 0;
-  height: auto;
-}
+  .myCard {
+    display: flex;
+    flex-flow: column nowrap;
+    word-wrap: break-word;
+    background-clip: border-box;
+    text-align: center !important;
+    min-width: 250px;
+    max-width: 325px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    // max-height: 280px;
+    background-color: $color5;
+    line-height: 2.0;
+    margin: 15px;
+    border: 1px solid $color8;
+    border-radius: 6px;
+    
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 3px 3px 5px $color4;
+      transition: .5s;
+    }
+  }
 
-.projectLinks {
-  border-radius: 5px;
-  border: .5px solid $color7;
-  width: 50%;
-  text-transform: uppercase;
-  font-family: $font7;
-  margin: auto;
-}
+  .titleH2 {
+    width: 100%;
+    letter-spacing: .25ch;
+    text-align: center !important;
+    text-transform: uppercase;
+    font-family: $font7;
+    color: $color4;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: $color8;
+  }
 
-.jsLinks {
-  color: $color1;
+  .projImage {
+    width: 290px;
+    margin-left: 16px;
+    box-shadow: 2px 2px 4px $color4;
+  }
+
+  .jsTech, .jsAvail, .jsDescrip {
+    font-family: $font2;
+    color: $color4;
+  }
+
+  .techAndDescrip {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: $color2;
+  }
+
+  .jsDescrip {
+    padding-top: 10px;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .descripSpan {
+    color: $color8;
+    text-transform: uppercase;
+    font-family: $font7;
+    text-align: left !important;
+  }
+
+  .jsTech {
+    // font-size: 12px;
+    text-align: center;
+    color: $color8;
+    margin: 5px;
+  }
+
+  .techUsed {
+    border-radius: 5px;
+    border: .5px solid $color7!important;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  .projectLinksDiv {
+    padding-top: 20px;
+    margin: 0;
+    height: auto;
+  }
+
+  .projectLinks {
+    border-radius: 5px;
+    border: .5px solid $color7;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: $font7;
+    margin: auto;
+  }
+
+  .jsLinks {
+    color: $color1;
+  }
+
+  .chevron {
+    font-size: 25px;
+    color: $color7;
+  }
 }

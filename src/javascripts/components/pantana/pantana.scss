@@ -1,70 +1,157 @@
 @import '../../../styles/colorsAndFonts.scss';
 
-#jpOnLoadDiv {
-  width: 100%;
-  margin: auto;
-  flex-flow: row nowrap;
-  // background-color: $color2;
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 365px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #jpOnLoadDiv {
+      width: 100%;
+      margin: auto;
+      flex-flow: row nowrap;
+      padding: 2em;
+    }
+  
+    #jpOnLoadBrandDiv {
+      margin-top: 4em!important;
+      padding: 2em;
+      background: url(../../../../imgs/jpBlkGray.jpg);
+      background-repeat: no-repeat;
+      width: 20em;
+      height: 15em;
+      background-size: contain, cover;
+      margin: auto !important;
+      background-position: center;
+    }
+    
+    .textInsideImage{
+      margin-top: -4%;
+    }
+  
+    #jpOnLoadName {
+      font-family: $font7;
+      font-weight: 700;
+      background-color: transparent;
+      height: 1.2em;
+      color:  $color5;
+      font-size: 6em;
+      text-transform: uppercase;
+      width: auto;
+      margin-top: 1%;
+      text-align: center;
+    }
+  
+    .os {
+      color:  $color4;
+      margin-left: .06em;
+    }
+  
+    .spacingLet {
+      padding: .1em;
+    }
+  
+    #JPbodyHeader {
+      font-family: $font7;
+      font-size: 2.5em !important;
+      padding-left: 5%;
+      letter-spacing: .4em;
+      color: transparent;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: -5px;
+      -webkit-text-stroke: 2px;
+      -webkit-text-stroke-color: $color4;
+    }
+  
+    #jpOnLoadTitle {
+      color: $color4;
+      font-family: $font7 !important;
+      font-size: 1.1em !important;
+      font-style: italic;
+      text-align: center;
+      letter-spacing: .64ch;
+      padding-left: 1%;
+      margin-left: 4%;
+      // margin-top: 5.5%;
+    }
 }
 
-#jpOnLoadBrandDiv {
-  padding-top: 10px;
-  padding-bottom: 80px;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  width: 40%;
-  min-height: 20em;
-  margin: auto;
-  margin-top: 4em;
-  text-align: center;
-  background-color: $color5;
-  // border-radius: 10px;
-  border-left: solid 8em $color8;
-  border-right: solid 8em $color8;
-  box-shadow: -2px 2px 12px $color4;
-}
 
-#jpOnLoadName {
-  font-family: $font7;
-  font-weight: 700;
-  background-color: transparent;
-  letter-spacing: .4em;
-  color:  $color4;
-  // padding: 5px;
-  font-size: 7.5em;
-  text-transform: uppercase;
-  margin-left: -80px;
-  margin-top: 80px;
-  text-align: center;
-}
+/* ----------- Retina Screens ----------- */
+@media screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
 
-.J, .H {
-  color: $color5;
-}
+  #jpOnLoadDiv {
+    width: 100%;
+    margin: auto;
+    flex-flow: row nowrap;
+    padding: 2em;
+  }
 
-#JPbodyHeader {
-  font-size: 60px !important;
-  letter-spacing: .45em;
-  color: transparent; // $color8;
-  text-transform: uppercase;
-  position: relative;
-  top: -70px;
-  -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: $color4;
-}
+  #jpOnLoadBrandDiv {
+    margin-top: 4em!important;
+    padding: 2em;
+    background: url(../../../../imgs/jpBlkGray.jpg);
+    background-repeat: no-repeat;
+    width: 35em;
+    height: 27em;
+    background-size: contain, cover;
+    margin: auto !important;
+    background-position: center;
+  }
+  
+  .textInsideImage{
+    margin-top: 4%;
+  }
 
-#jpOnLoadTitle {
-  color: $color4;
-  width: 190%;
-  font-family: $font7;
-  font-size: 18px !important;
-  font-style: italic;
-  margin: auto;
-  margin-left: -79px;
-  margin-top: -75px;
-  letter-spacing: 1.35ch;
-}
+  #jpOnLoadName {
+    font-family: $font7;
+    font-weight: 700;
+    background-color: transparent;
+    height: 1.2em;
+    color:  $color5;
+    font-size: 9em;
+    text-transform: uppercase;
+    width: auto;
+    margin-top: 1%;
+    text-align: center;
+  }
 
-#soft, #oper {
-  color: $color7;
+  .os {
+    color:  $color4;
+    margin-left: .12em;
+  }
+
+  .spacingLet {
+    padding: .18em;
+  }
+
+  #JPbodyHeader {
+    font-family: $font7;
+    font-size: 4.5em !important;
+    padding-left: 5%;
+    letter-spacing: .45em;
+    color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: $color4;
+  }
+
+  #jpOnLoadTitle {
+    color: $color4;
+    font-family: $font7 !important;
+    font-size: 2em !important;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: .69ch;
+    padding-left: 1%;
+    margin-top: 5.5%;
+  }
+
 }
