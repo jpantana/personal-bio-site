@@ -1,14 +1,10 @@
 @import '../../../styles/colorsAndFonts.scss';
 
 /* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-
-  /* projects JS */
 
   .projContainerCol {
     display: flex;
@@ -16,10 +12,6 @@
     justify-content: center;
     margin: 0;
     margin-top: 3em;
-  }
-
-  .jsPage {
-
   }
 
   .myCard {
@@ -32,10 +24,8 @@
     max-width: 325px;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    // max-height: 280px;
     background-color: $color5;
     line-height: 2.0;
-    // margin: 15px;
     border: 1px solid $color8;
     border-radius: 6px;
     &:hover {
@@ -143,24 +133,17 @@
 
 }
 
-
-
 // * ----------- iPad" ----------- */
-
-/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2){
-
-      /* projects JS */
+  and (max-device-width: 1199px) {
 
   .projContainerCol {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: 0;
-    margin-top: 3em;
+    margin: auto;
+    margin-top: 5em;
   }
 
   .jsPage {
@@ -177,13 +160,11 @@
     max-width: 440px;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    // max-height: 280px;
     background-color: $color5;
     line-height: 2.0;
     margin: 15px;
     border: 1px solid $color8;
     border-radius: 6px;
-    
     &:hover {
       transform: scale(1.03);
       box-shadow: 3px 3px 5px $color4;
@@ -235,7 +216,6 @@
   }
 
   .jsTech {
-    // font-size: 12px;
     text-align: center;
     color: $color8;
     margin: 5px;
@@ -283,7 +263,7 @@
 @media screen 
 and (min-device-width: 1200px) 
 and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 2)
+// and (-webkit-min-device-pixel-ratio: 2)
 and (min-resolution: 192dpi) {
 
 
