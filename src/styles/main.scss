@@ -26,8 +26,8 @@ html, body {
 /* Portrait and Landscape */
 @media screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 500px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (max-device-width: 500px) {
+//   and (-webkit-min-device-pixel-ratio: 2) { 
         /* container DIV */
         .container {
             flex-direction: column;
@@ -218,8 +218,8 @@ html, body {
 /* Portrait and Landscape */
 @media screen 
   and (min-device-width: 501px)
-  and (max-device-width: 972px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 972px) {
+//   and (-webkit-min-device-pixel-ratio: 2) {
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* container DIV */
@@ -409,8 +409,8 @@ html, body {
 /* Portrait and Landscape */
 @media screen 
   and (min-device-width: 973px) // 1024
-  and (max-device-width: 1199px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1199px) {
+//   and (-webkit-min-device-pixel-ratio: 2) {
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* container DIV */
@@ -599,9 +599,9 @@ html, body {
 
 /* ----------- Retina Screens ----------- */
 @media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px)
-and (-webkit-min-device-pixel-ratio: 2) { 
+and (min-device-width: 1200px) {
+// and (max-device-width: 1650px)
+// and (-webkit-min-device-pixel-ratio: 2) { 
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     /* container DIV */

@@ -3,8 +3,8 @@
 /* ----------- iPhone X ----------- */
 @media screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 767px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 767px) {
+  // and (-webkit-min-device-pixel-ratio: 2) {
 
   .projContainerCol {
     display: flex;
@@ -135,8 +135,8 @@
 
 @media screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1199px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1199px) {
+  // and (-webkit-min-device-pixel-ratio: 2) {
 
   .projContainerCol {
     display: flex;
@@ -262,9 +262,9 @@
 
 /* ----------- Retina Screens ----------- */
 @media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 2) {
+and (min-device-width: 1200px) {
+// and (max-device-width: 1600px) {
+// and (-webkit-min-device-pixel-ratio: 2) {
 
 
   /* projects JS */
@@ -297,10 +297,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin: 15px;
     border: 1px solid $color8;
     border-radius: 6px;
-    
+    box-shadow: -3px 3px 5px $color4;
     &:hover {
       transform: scale(1.03);
-      box-shadow: 3px 3px 5px $color4;
       transition: .5s;
     }
   }
