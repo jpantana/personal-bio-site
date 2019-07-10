@@ -3,15 +3,15 @@
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
 @media screen 
-  and (min-device-width: 365px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 667px) {
   // and (-webkit-min-device-pixel-ratio: 2) {
 
     #jpOnLoadDiv {
       width: 100%;
       margin: auto;
+      margin-top: 20px;
       flex-flow: row nowrap;
-      padding: 2em;
     }
   
     #jpOnLoadBrandDiv {
@@ -48,9 +48,6 @@
       color:  $color4;
     }
   
-    .spacingLet {
-    }
-  
     #JPbodyHeader {
       font-family: $font7;
       font-size: 2.5em !important;
@@ -80,14 +77,13 @@
 /* ----------- Retina Screens ----------- */
 @media screen 
 and (min-device-width: 668px) {
-// and (max-device-width: 1600px) {
-// and (-webkit-min-device-pixel-ratio: 2) { 
 
   #jpOnLoadDiv {
     width: 100%;
     margin: auto;
     flex-flow: row nowrap;
     padding: 2em;
+    margin-top: 1em;
   }
 
   #jpOnLoadBrandDiv {
