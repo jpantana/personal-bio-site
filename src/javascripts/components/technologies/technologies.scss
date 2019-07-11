@@ -1,12 +1,10 @@
 @import '../../../styles/colorsAndFonts.scss';
 
-/* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) {
         /* Tech page FLEX */
     #techDiv {
         height: inherit;
@@ -30,14 +28,12 @@
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
-            // padding: 55px;
             margin-bottom: 0;
             height: inherit;
         }
 
         .techImg {
             width: 4em;
-            // padding: 40px;
             align-content: center;
             display: block;
             margin: auto;
@@ -58,7 +54,6 @@
         .techImgDiv {
             width: 300px;
             justify-content: center;
-            // flex-wrap: wrap;
             padding-bottom: 2em;
         }
 
@@ -85,15 +80,9 @@
   }
 
 
-
-
-// * ----------- iPad Pro 10.5" ----------- */
-
-/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2){
+  and (max-device-width: 1112px) {
               /* Tech page FLEX */
     #techDiv {
         height: inherit;
@@ -117,14 +106,12 @@
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
-            // padding: 55px;
             margin-bottom: 0;
             height: inherit;
         }
 
         .techImg {
             width: 4em;
-            // padding: 40px;
             align-content: center;
             display: block;
             margin: auto;
@@ -145,7 +132,6 @@
         .techImgDiv {
             width: 300px;
             justify-content: center;
-            // flex-wrap: wrap;
             padding-bottom: 2em;
         }
 
@@ -171,16 +157,8 @@
             }
   }   
 
-
-
-
-/* ----------- Retina Screens ----------- */
 @media screen 
-and (min-device-width: 1200px) 
-and (max-device-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 2)
-and (min-resolution: 192dpi) {
-
+and (min-device-width: 1200px) {
 /* Tech page FLEX */
     #techDiv {
       height: inherit;
@@ -200,18 +178,17 @@ and (min-resolution: 192dpi) {
         font-size: 3em;
     } 
 
+
     .tech-container {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        // padding: 55px;
         margin-bottom: 0;
         height: inherit;
     }
 
     .techImg {
         width: 4em;
-        // padding: 40px;
         align-content: center;
         display: block;
         margin: auto;
@@ -232,7 +209,6 @@ and (min-resolution: 192dpi) {
     .techImgDiv {
         width: 300px;
         justify-content: center;
-        // flex-wrap: wrap;
         padding-bottom: 2em;
     }
 
