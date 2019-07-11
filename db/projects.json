@@ -29,10 +29,10 @@
   "project4": {
     "title": "Hoarder",
     "description": "Some people have a hard time letting go of things. This site is dedicated to such a person. Are you interested in posting images and descriptions of all the garbage in your life that you won't get rid of?",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "technologiesUsed": "React, React-router-dom, User Auth, scss, JavaScript, Version Control with Github",
     "available": true,
-    "url": "https://tamagotchi-715dc.firebaseapp.com/",
-    "githubUrl": "https://github.com/jpantana/tamagotchi",
-    "image": "https://raw.githubusercontent.com/jpantana/personal-bio-site/master/imgs/tama.png"
+    "url": "https://hoarder-f0f93.web.app/auth",
+    "githubUrl": "https://github.com/jpantana/hoader",
+    "image": "https://raw.githubusercontent.com/jpantana/personal-bio-site/style2/imgs/hoarder.png"
   }
 }

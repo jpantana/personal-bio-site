@@ -52,6 +52,36 @@ const techDivBuilder = (e) => {
           <h3 class="techH3">Visual Studio Code</h3>
         </div>
       </li>
+      <li>
+        <div class="techImgDiv">
+          <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="/imgs/firebase.svg" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
+          <h3 class="techH3">Firebase</h3>
+        </div>
+      </li>
+      <li>
+        <div class="techImgDiv">
+          <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="/imgs/npm.svg" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
+          <h3 class="techH3">NPM</h3>
+        </div>
+      </li>
+      <li>
+        <div class="techImgDiv">
+          <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="/imgs/jquery.svg" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
+          <h3 class="techH3">jQuery</h3>
+        </div>
+      </li>
+      <li>
+        <div class="techImgDiv">
+          <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="/imgs/github.svg" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
+          <h3 class="techH3">GitHub</h3>
+        </div>
+      </li>
+      <li>
+        <div class="techImgDiv">
+          <img data-wow-delay=".5s" class="techImg wow bounceIn logo-width" src="/imgs/photoshop.svg" style="visibility: visible; animation-delay: 0.5s; animation-name: pulse;">
+          <h3 class="techH3">Adobe Photoshop</h3>
+        </div>
+      </li>
     </ul>
   </div>
 </div>`;
