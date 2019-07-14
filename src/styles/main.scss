@@ -2,6 +2,7 @@
 @import './colorsAndFonts.scss';
 @import './animaton.css';
 @import '~@fortawesome/fontawesome-free/css/all.css';
+// @import '../../imgs/jpMug.jpg';
 
 * {
     margin: 0;
@@ -65,8 +66,13 @@ html, body {
         border-radius: 50px;
         &:hover {
             transition: .8s;
-            color: $color2;
+            color: transparent;
             background-color: $color4;
+            background-image: url(../../imgs/jpMug.jpg);
+            background-size: 140%;
+            background-repeat: no-repeat;
+            background-position-y: -35px;
+            animation: fadeOut 2s forwards;
             cursor: pointer;
         }
     }

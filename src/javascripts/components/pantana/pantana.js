@@ -1,7 +1,7 @@
 import util from '../../helpers/util';
 // import img from '../../../../imgs/joshpantanablackbackground.jpg';
 // import img2 from '../../../../imgs/jpantanasuit.jpg';
-
+// import jpPhoto from '../../../../imgs/jpMug.jpg';
 import './pantana.scss';
 
 
