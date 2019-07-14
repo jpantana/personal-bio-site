@@ -64,17 +64,15 @@ html, body {
         height: 1.7em;
         width: 1.7em;
         border-radius: 50px;
-        
-        // background-position-x: 5px;
-        
         &:hover {
             transition: .8s;
-            color: rgba(255,255,255, .3);
+            color: transparent;
             background-color: $color4;
             background-image: url(../../imgs/jpMug.jpg);
-        background-size: 140%;
-        background-repeat: no-repeat;
-        background-position-y: -35px;
+            background-size: 140%;
+            background-repeat: no-repeat;
+            background-position-y: -35px;
+            animation: fadeOut 2s forwards;
             cursor: pointer;
         }
     }
